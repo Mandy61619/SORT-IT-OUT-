@@ -1,0 +1,173 @@
+{
+  "frames": {
+    "water-bottle": {
+      "frame": {
+        "x": 7,
+        "y": 9,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "plastic-bag": {
+      "frame": {
+        "x": 107,
+        "y": 9,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "aluminum-can": {
+      "frame": {
+        "x": 207,
+        "y": 9,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "glass-bottle": {
+      "frame": {
+        "x": 307,
+        "y": 9,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "cigarette-butt": {
+      "frame": {
+        "x": 7,
+        "y": 189,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "disposable-diaper": {
+      "frame": {
+        "x": 107,
+        "y": 189,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "broken-ceramic-mug": {
+      "frame": {
+        "x": 207,
+        "y": 189,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    },
+    "dirty-sponge": {
+      "frame": {
+        "x": 307,
+        "y": 189,
+        "w": 100,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 180
+      }
+    }
+  },
+  "meta": {
+    "image": "spritesheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 415,
+      "h": 378
+    },
+    "scale": "1"
+  }
+}
