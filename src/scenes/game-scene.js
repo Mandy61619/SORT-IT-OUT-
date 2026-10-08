@@ -162,7 +162,7 @@ export class GameScene extends Phaser.Scene {
         this.#fallingObjects.splice(i, 1);
         // update players score for each object collected
       if (correctItems.includes(framename)) {        
-        this.#score += 10;
+        this.#score += 20;
         this.#scoreTextGameObject.setText(`${this.#score}`);
       } else {
         this.#player.setTexture(ASSET_KEYS.JAR_DEAD);
