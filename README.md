@@ -1,6 +1,8 @@
 # SORT IT OUT!
 
 SORT IT OUT! is a recycling-themed falling-object game created with Phaser 4.
+## PLAY THE GAME
+[Click here to play SORT IT OUT!](https://mandy61619.github.io/SORT-IT-OUT-/)
 
 ## About the Game
 
