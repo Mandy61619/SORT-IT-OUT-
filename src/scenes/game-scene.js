@@ -179,8 +179,7 @@ export class GameScene extends Phaser.Scene {
         obj.destroy();
         this.#fallingObjects.splice(i, 1);
         // increment the number of misses for the player
-        this.#misses += 1;
-        this.#livesTextGameObject.setText(`${this.#maxMisses - this.#misses}`);
+        
       }
     }
 
