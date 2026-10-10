@@ -77,10 +77,13 @@ export class GameScene extends Phaser.Scene {
     this.add.image(width / 2, height / 2, ASSET_KEYS.BACKGROUND);
     // add player
     this.#player = this.add.image(width / 2, height-150, ASSET_KEYS.JAR).setDepth(1).setScale(0.6);
+    this.#player.setInteractive({ draggable: true });
+    this.input.setDraggable(this.#player);
+    this.input.on('drag', (pointer, gameObject, dragX, dragY) => {
+      gameObject.x = dragX;
+    });
 
-    // adds support for keyboard input in our game (arrow keys, enter, and shift)
-    this.#cursorKeys = this.input.keyboard.createCursorKeys();
-
+    
     // keep track of the falling objects the player collects
     this.#fallingObjects = [];
     this.#fallingObjectFrames = Object.keys(this.textures.get(ASSET_KEYS.OBJECTS).frames).filter(
@@ -125,13 +128,7 @@ export class GameScene extends Phaser.Scene {
       return;
     }
 
-    // allow player to move
-    const moveStep = this.#playerSpeed * (delta / 1000);
-    if (this.#cursorKeys.left.isDown) {
-      this.#player.x -= moveStep;
-    } else if (this.#cursorKeys.right.isDown) {
-      this.#player.x += moveStep;
-    }
+    
 
     if (this.#player.x - this.#player.displayWidth / 2 < 0) {
       this.#player.x = this.#player.displayWidth / 2;
