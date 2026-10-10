@@ -168,7 +168,7 @@ export class GameScene extends Phaser.Scene {
         this.#player.setTexture(ASSET_KEYS.JAR_DEAD);
 
         this.#misses += 1;
-        this.#LivesTextGameObject.setText(`${this.#maxMisses - this.#misses}`);
+        this.#livesTextGameObject.setText(`${this.#maxMisses - this.#misses}`);
         
         this.time.delayedCall(1000,() => {
           this.#player.setTexture(ASSET_KEYS.JAR);
